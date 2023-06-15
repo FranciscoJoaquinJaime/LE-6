@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-unsigned char string1 [30];
-unsigned char string2 [30];
+unsigned char string1 [30] = {0};
+unsigned char string2 [30] = {0};
 int a; 
 char uso = 0;
 char con;
@@ -36,6 +36,9 @@ int main(void) {
     printf("Si queire reutilizar el programa ingrese 1, si ya termino con este ingrese 0.\n");
     scanf("%d", &uso);
   } while (uso == 1);
+
+  printf("Hasta la proxima");
+}
 
   printf("Hasta la proxima");
 }
