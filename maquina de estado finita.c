@@ -8,9 +8,9 @@ typedef enum{
   ESTADO_FALLING,
   ESTADO_RISING,
   ESTADO_DOWN,
-}estados_t;
+}debounceState_t;
 
-estados_t estado;
+debounceState_t estado;
 
 void buttonPressed();
 void buttonReleased();
